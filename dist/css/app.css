@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+* {
+  color: #58402c;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 75px;
+  border-bottom: 1px solid #58402c;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+header nav ul li {
+  padding: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #58402c;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+header nav ul li a .fas {
+  padding-left: 5px;
+}
+
+header nav ul li a:hover {
+  color: #30488f;
+}
+
+header nav ul li a.button {
+  border: 1px solid #30488f;
+  color: #30488f;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+header nav ul li a.button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-right: 5px;
+}
+
+header nav ul li a.button:hover {
+  color: white;
+  background-color: #30488f;
+}
+
+header nav ul li:last-child {
+  padding-right: 0;
+}
+
+main {
+  width: 100%;
+}
+
+main section {
+  width: 100%;
+}
+
+main section .contents-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main .contents-container.main .jumbotron {
+  width: 50%;
+  padding: 0px 20px;
+  color: #58402c;
+}
+
+main .contents-container.main .jumbotron h1 {
+  font-size: 50px;
+  line-height: 1.4;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+main .contents-container.main .jumbotron p {
+  font-size: 1.375rem;
+  line-height: 1.4;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+main .contents-container.main .jumbotron img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .contents-container.main .jumbotron a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+main .contents-container.main .jumbotron a.button {
+  border: 1px solid #30488f;
+  color: white;
+  background-color: #30488f;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+main .contents-container.main .jumbotron a.button img {
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-right: 5px;
+}
+
+main .contents-container.main .jumbotron a.button .slack {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .contents-container.main .jumbotron span {
+  padding: 0 10px;
+}
+
+main .contents-container.main .jumbotron .email-login {
+  padding-top: 20px;
+}
+
+main .contents-container.main .jumbotron .email-login a {
+  font-weight: 400;
+}
+
+main .salmon {
+  background-color: #ffe7d2;
+}
+
+main .differences .attidudes-before,
+main .differences .attitudes-after {
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .differences .attidudes-before {
+  border-bottom: 1px solid #58402c;
+}
+
+main .differences h2 {
+  padding: 50px 15%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+main .differences .cards {
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+
+main .differences .cards .card-img {
+  width: 140px;
+  height: 105px;
+  margin: 0 auto;
+}
+
+main .differences .cards .card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .differences .cards .card-txt {
+  text-align: center;
+}
+
+main .differences .results {
+  width: 280px;
+  padding: 50px 0;
+}
+
+main .differences .results img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .large {
+  max-width: 1600px !important;
+}
+
+main .example {
+  width: 100%;
+  padding: 80px 0;
+}
+
+main .example .eg-img {
+  width: 50%;
+}
+
+main .example .eg-txt {
+  width: 25%;
+}
+
+main .example .eg-img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+main .example .eg-txt h3 {
+  font-size: 26px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+main .example .eg-txt p {
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+main .example .eg-txt a {
+  text-decoration: none;
+  color: #30488f;
+  padding-bottom: 50px;
+}
+
+main .example .eg-txt .txt-img {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+main .example .eg-txt .txt-img img {
+  width: 270px;
+}
+
+main .example .eg-txt #txt-img-large {
+  width: 320px;
+}
+

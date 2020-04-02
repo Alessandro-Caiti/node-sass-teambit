@@ -1,0 +1,165 @@
+main {
+    width: 100%;
+
+    section {
+        width: 100%;
+        .contents-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    }
+
+    .contents-container.main {
+        .jumbotron {
+            width: 50%;
+            padding: 0px 20px;
+            color: $text_color;
+            h1 {
+                font-size: 50px;
+                line-height: 1.4;
+                padding-right: 30px;
+                padding-bottom: 30px;
+            }
+            p {
+                font-size: 1.375rem;
+                line-height: 1.4;
+                padding-right: 30px;
+                padding-bottom: 40px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            a {
+                text-decoration: none;
+                font-weight: 500;
+                font-size: .875rem;
+            }
+            a.button {
+                border: 1px solid $button_color;
+                color: white;
+                background-color: $button_color;
+                border-radius: 8px;
+                padding: 8px 12px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    vertical-align: top;
+                    object-fit: contain;
+                    padding-right: 5px;
+                }
+                .slack {
+                    object-fit: cover;
+                }
+            }
+            span {
+                padding: 0 10px;
+            }
+            .email-login {
+                padding-top: 20px;
+                a {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .salmon {
+        background-color: $background_color;
+    }
+
+    .differences {
+        .attidudes-before,
+        .attitudes-after {
+            width: 80%;
+            margin: 0 auto;
+            flex-direction: column;
+            align-items: center;
+        }
+        .attidudes-before {
+            border-bottom: 1px solid $text_color;
+        }
+        h2 {
+            padding: 50px 15%;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 500;
+        }
+        .cards {
+            width: calc(100% / 3);
+            padding: 0 20px;
+            .card-img {
+                width: 140px;
+                height: 105px;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            .card-txt {
+                text-align: center;
+            }
+        }
+        .results {
+            width: 280px;
+            padding: 50px 0;
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .large {
+        max-width: 1600px!important;
+    }
+    .example {
+        width: 100%;
+        padding: 80px 0;
+        .eg-img {
+            width: 50%;
+        }
+        .eg-txt {
+            width: 25%;
+        }
+        .eg-img {
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+        .eg-txt {
+            h3 {
+                font-size: 26px;
+                font-weight: 500;
+                padding-bottom: 50px;
+            }
+            p {
+                font-size: 22px;
+                font-weight: 400;
+                padding-bottom: 50px;
+            }
+            a {
+                text-decoration: none;
+                color: $button_color;
+                padding-bottom: 50px;
+            }
+            .txt-img {
+                padding-top: 50px;
+                padding-left: 50px;
+                img {
+                    width: 270px;
+                }
+            }
+            #txt-img-large {
+                width: 320px;
+            }
+        }
+    }
+
+}

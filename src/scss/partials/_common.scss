@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+* {
+    color: $text_color;
+}
